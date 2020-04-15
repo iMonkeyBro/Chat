@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  Chat
+//
+//  Created by 刘超群 on 2020/2/15.
+//  Copyright © 2020 chaoqun. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "CQMacros.h"// 宏
+
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <UIKit/UIKit.h>
+
+// 三方库
+#import <Masonry.h>
+#import <YRUISignal.h>
+#import <MJRefresh.h>
+
+// 工具类
+#import "CQScreenTool.h"// 屏幕适配工具类
+
+// 分类
+#import "UIImage+CQ.h"
+
+#endif /* PrefixHeader_pch */
