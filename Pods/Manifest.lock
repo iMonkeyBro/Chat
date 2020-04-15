@@ -1,0 +1,46 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - IQKeyboardManager (6.5.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.4.1)
+  - TZImagePickerController (3.3.1)
+  - YRUISignal (1.1.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - FMDB
+  - IQKeyboardManager
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - TZImagePickerController
+  - YRUISignal
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - TZImagePickerController
+    - YRUISignal
+    - YYModel
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
+  TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
+  YRUISignal: 43ac2f43c2904e139ffadebc1901eea62915b4d7
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 2f56bbe444c365c33adf067762459f626deda3bb
+
+COCOAPODS: 1.8.4
