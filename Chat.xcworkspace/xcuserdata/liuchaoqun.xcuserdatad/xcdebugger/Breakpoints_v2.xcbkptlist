@@ -18,6 +18,38 @@
             endingLineNumber = "63"
             landmarkName = "-changeChatBoxHeight:"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A8C6A4CC-1A86-4060-B175-E8C9675BE491 - 4a6918b94e8cd2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CQChatViewController changeChatBoxHeight:]"
+                  moduleName = "Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuchaoqun/Desktop/iOSProject/Chat/Chat/Chat/Chat/Controller/CQChatViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "186">
+               </Location>
+               <Location
+                  uuid = "A8C6A4CC-1A86-4060-B175-E8C9675BE491 - 2ce042a649c51ab9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__44-[CQChatViewController changeChatBoxHeight:]_block_invoke"
+                  moduleName = "Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuchaoqun/Desktop/iOSProject/Chat/Chat/Chat/Chat/Controller/CQChatViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
