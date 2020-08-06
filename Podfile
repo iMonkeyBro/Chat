@@ -1,9 +1,10 @@
-platform :ios,'10.0'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios,'9.0'
 target 'Chat'
 
 pod 'MBProgressHUD'
 pod 'Masonry'
-pod 'MJRefresh'
+
 pod 'YYModel'
 pod 'FMDB'
 pod 'TZImagePickerController'

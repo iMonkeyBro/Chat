@@ -54,9 +54,6 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    if (self.needShowStatusBar) {
-        [UIApplication sharedApplication].statusBarHidden = NO;
-    }
     [UIApplication sharedApplication].statusBarStyle = _originStatusBarStyle;
 }
 
@@ -143,8 +140,7 @@
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     
-    BOOL isFullScreen = self.view.tz_height == [UIScreen mainScreen].bounds.size.height;
-    CGFloat statusBarHeight = isFullScreen ? [TZCommonTools tz_statusBarHeight] : 0;
+    CGFloat statusBarHeight = [TZCommonTools tz_statusBarHeight];
     CGFloat statusBarAndNaviBarHeight = statusBarHeight + self.navigationController.navigationBar.tz_height;
     _playerLayer.frame = self.view.bounds;
     CGFloat toolBarHeight = [TZCommonTools tz_isIPhoneX] ? 44 + (83 - 49) : 44;
